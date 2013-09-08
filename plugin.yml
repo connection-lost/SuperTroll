@@ -1,0 +1,16 @@
+name: SuperTroll
+main: me.crafter.mc.supertroll.SuperTroll
+version: 1.0
+author: connection_lost
+description: >
+             Trolls player.
+             
+             
+supertroll.use:
+   default: op
+   
+commands:
+   troll:
+      permission: supertroll.use
+      usage: |
+         /troll <type> <player>
